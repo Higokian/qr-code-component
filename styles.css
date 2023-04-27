@@ -24,6 +24,15 @@ body {
 }
 
 .card {
-    max-width: 325px;
-    margin: 0px !important;
+    width: 325px;
+    border-radius: 15px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-img {
+    border-radius: 8px;
 }
