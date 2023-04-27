@@ -1,7 +1,7 @@
 :root {
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
+    --grayish-blue: hsla(219, 15%, 55%, 0.178);
     --dark-blue: hsl(218, 44%, 22%);
 }
 
@@ -18,7 +18,7 @@ font-family: 'Outfit', sans-serif;
 
 body {
     background-color: var(--light-gray);
-    font-family: 'Outfit', sans-serif;
+    
     height: 100vh;
     font-size: 15px;
 }
@@ -26,10 +26,11 @@ body {
 .card {
     width: 325px;
     border-radius: 15px;
-    box-shadow: -5px 10px 10px 10px var(--grayish-blue);
+    box-shadow: 0px 0px 40px var(--grayish-blue);
 }
 
 .card-title {
+    font-family: 'Outfit', sans-serif !important;
     font-weight: 700;
     font-size: 20px;
     margin-left: 10px;
@@ -38,6 +39,8 @@ body {
 }
 
 .card-text {
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 400;
     margin-left: 12px;
     margin-right: 12px;
 }
