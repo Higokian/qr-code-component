@@ -18,5 +18,12 @@ font-family: 'Outfit', sans-serif;
 
 body {
     background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
     height: 100vh;
+    font-size: 15px;
+}
+
+.card {
+    max-width: 325px;
+    margin: 0px !important;
 }
