@@ -26,11 +26,20 @@ body {
 .card {
     width: 325px;
     border-radius: 15px;
+    box-shadow: -5px 10px 10px 10px var(--grayish-blue);
 }
 
 .card-title {
     font-weight: 700;
     font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.card-text {
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .card-img {
