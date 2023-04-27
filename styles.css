@@ -18,4 +18,5 @@ font-family: 'Outfit', sans-serif;
 
 body {
     background-color: var(--light-gray);
+    height: 100vh;
 }
